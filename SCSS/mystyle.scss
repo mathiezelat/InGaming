@@ -122,6 +122,23 @@ background: #6E44FF;
 /* Navbar */
 
 /* Contenido */
+.button__subscribirse{
+    position: relative;
+    top: -60px ;
+    left: 350px;
+}
+.form__subscribirse{
+    font-size: 1.5rem;
+    background: #2D2A4A;
+    border-radius: 5px;
+    padding: 2vw;
+    border-style: none;
+    &:focus{
+    background: #2D2A4A;
+    color: white;
+    }
+}
+
 #div__contenedores {
     margin: 0;
     padding: 0;
