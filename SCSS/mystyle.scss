@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// Colores de la pagina
+$color-primario: #6e44ff;
+$color-secundario: #4d6cfa;
+$color-terciario: #5e58fd;
+$color-cuartenario: #2f3061;
+$color-quinario: #11151c;
+$color-nav: #ffffff;
+$color-nav-hover: #6e44ff;
+$color-sombra: #000000;
+$color-titulos-h1: #ffffff;
+$color-subtitulos-h5: #ffffff;
+
+// Colores de la pagina
+// Fuentes
+$fuente-principal: "Roboto Slab", serif;
+$fuente-secundario: "Raleway", sans-serif;
+// Fuentes
+
+/* Navbar */
+header{
+    position: absolute;
+    width: 100%;
+}
+.navbar-brand{
+    position: relative;
+    top: 1.5vw;
+    left: 8vh;
+}
+.navbar-color {
+    z-index: 5;
+}
+#nav__icon-color{
+    color: $color-nav;
+    &:hover{
+        color: $color-nav-hover;
+    }
+}
+
+.nav-current-circle{
+position: relative;
+width: 5px;
+height: 5px;
+left: 70px;
+top: 0px;
+z-index: 5;
+clip-path: circle(50% at 50% 50%);
+background: #6E44FF;
+}
+.nav-nocurrent-circle{
+    position: relative;
+    width: 5px;
+    height: 5px;
+    left: 70px;
+    top: 0px;
+    z-index: 5;
+    }
+
+.navbar-nav {
+    margin-left: 65px;
+    margin-top: 3vw;
+    width: 90%;
+}
+
+
+.nav-item {
+    margin: 1px;
+    padding: 1px 8px;
+}
+
+.nav-link {
+    display: block;
+    text-align: center;
+    font-family: $fuente-secundario;
+    font-weight: 300;
+    font-size: 1.3rem;
+    width: 165px;
+    padding: 10%;
+}
+.button__nav{ 
+    background: linear-gradient(180deg, #6E44FF 0%, #4D6CFA 100%), #C4C4C4;
+    border: none;
+    font-family: $fuente-secundario;
+    font-weight: 500;
+    color: white;
+    padding: 10px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 3px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#nav__menu--color {
+    color: $color-nav;
+
+    &:hover {
+        color: $color-nav-hover;
+    }
+}
+#nav__menu--color-current {
+    color: $color-nav;
+    font-weight: 400;
+
+    &:hover {
+        color: $color-nav-hover;
+    }
+}
+
+/* Navbar */
+
+/* Contenido */
+#div__contenedores {
+    margin: 0;
+    padding: 0;
+}
+.color_text_principal{
+    color: $color-primario;
+}
+h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 4rem;
+    color: $color-titulos-h1;
+}
+
+h2 {
+    font-family: "Roboto Slab", serif;
+    font-size: 3.5rem;
+    color: $color-titulos-h1;
+}
+
+h3 {
+    font-family: "Roboto Slab", serif;
+    font-size: 3.5rem;
+    color: $color-titulos-h1;
+}
+
+h5 {
+    font-family: "raleway", sans-serif;
+    font-size: 1.5rem;
+    color: $color-subtitulos-h5;
+}
+
+h6 {
+    font-family: "raleway", sans-serif;
+    font-size: 1rem;
+    color: $color-subtitulos-h5;
+}
+
+.div__articulos {
+    height: 55vw;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenido */
+
+/* Formas */
+
+/* Formas Inicio 1*/
+.article__div--forma1-box {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: $color-sombra;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.article__div--forma1-shadow {
+    z-index: -1;
+    filter: drop-shadow(0 1px 2px $color-sombra);
+    -webkit-filter: drop-shadow(0 1px 2px $color-sombra);
+}
+
+.article__div--forma1 {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    top: 0px;
+    left: 0px;
+    z-index: -3;
+    background: radial-gradient(50% 98.88% at 50% 50%, #221E46 0%, #17182B 100%);
+}
+
+
+.article__div--forma1-text {
+    position: absolute;
+    margin: 14vw 45vw 10vw 12vw;
+    padding: 0vw 20vw 2vw 0vw;
+
+    h5 {
+        padding: 0.5vw 0vw 0vw 0vw;
+    }
+}
+
+/* Formas Inicio 1*/
+
+
+/* Formas Acerca de Nosotros */
+
+.article__div--forma-acercadenosotros-box {
+    width: 0 auto;
+    height: 60vw;
+    background-color: $color-sombra;
+    overflow: hidden;
+}
+
+.article__div--forma-acercadenosotros-1 {
+    width: 100vw;
+    height: 100vw;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    background: $color-cuartenario;
+}
+
+.article__div--forma-acercadenosotros-2 {
+    width: 100vw;
+    height: 100vw;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background: $color-terciario;
+}
+
+.div__texto-acercadenosotros-1 {
+    padding: 10vw 5vw;
+    width: 50%;
+    height: 50%;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 4px;
+
+    h5 {
+        margin: 20px 0;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+}
+
+.div__texto-acercadenosotros-2 {
+    padding: 15vw 5vw;
+    width: 55%;
+    height: 50%;
+    font-size: 38px;
+    line-height: 100%;
+    letter-spacing: 4px;
+
+
+}
+
+.div__articulos-acercadenosotros {
+    margin: 0;
+    padding: 0;
+}
+
+/* Formas Acerca de Nosotros */
+
+/* Formas */
+
+/* Footer */
+.footer__container {
+    height: 10vw;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__newslatter {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #11151c;
+    color: aliceblue;
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 2rem;
+}
+
+.footer__copy {
+    background-color: #6e44ff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Footer */
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 780px) {
+
+    // Fuentes
+    h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 10px;
+    }
+
+    h6 {
+        font-size: 8px;
+    }
+
+    // Fuentes
+    // Formas
+
+
+    .article__div--forma-acercadenosotros-1 {
+        height: auto;
+    }
+
+    .article__div--forma-acercadenosotros-box {
+        width: 0 auto;
+        height: auto;
+        background-color: $color-sombra;
+        overflow: hidden;
+    }
+
+    // Formas
+    // Formas Texto
+
+    // Forma Texto
+
+    input {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 10px;
+    }
+
+    .div__texto-acercadenosotros-1 {
+        width: 100%;
+    }
+
+    .div__texto-acercadenosotros-2 {
+        width: 100%;
+    }
+
+    .div__texto-acercadenosotros-1 {
+        h5 {
+            margin: 20px 0;
+            font-size: 15px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 990px) and (min-width: 600px) {
+    .navbar-nav {
+        margin-left: 10px;
+        width: 100%;
+    }
+}
