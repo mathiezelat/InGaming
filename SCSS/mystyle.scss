@@ -10,7 +10,7 @@ $color-primario: #6e44ff;
 $color-secundario: #4d6cfa;
 $color-terciario: #5e58fd;
 $color-cuartenario: #2f3061;
-$color-quinario: #17182B;
+$color-quinario: #17182b;
 $color-nav: #ffffff;
 $color-nav-hover: #6e44ff;
 $color-sombra: #000000;
@@ -19,60 +19,68 @@ $color-subtitulos-h5: #ffffff;
 
 // Colores de la pagina
 // Fuentes
-$fuente-principal: "Roboto Slab", serif;
-$fuente-secundario: "Raleway", sans-serif;
+$fuente-principal: "Roboto Slab",
+serif;
+$fuente-secundario: "Raleway",
+sans-serif;
+
 @font-face {
     font-family: Retroica;
     src: url(".fonts/Retroica.ttf") format("opentype");
 }
-$fuente-terciario: 'Retroica';
+
+$fuente-terciario: "Retroica";
 // Fuentes
 
 /* Navbar */
-header{
+header {
     position: absolute;
     width: 100%;
 }
-.navbar-brand{
+
+.navbar-brand {
     position: relative;
     top: 1.5vw;
     left: 8vh;
 }
+
 .navbar-color {
     z-index: 5;
 }
-#nav__icon-color{
+
+#nav__icon-color {
     color: $color-nav;
-    &:hover{
+
+    &:hover {
         color: $color-nav-hover;
     }
 }
 
-.nav-current-circle{
-position: relative;
-width: 5px;
-height: 5px;
-left: 70px;
-top: 0px;
-z-index: 5;
-clip-path: circle(50% at 50% 50%);
-background: #6E44FF;
-}
-.nav-nocurrent-circle{
+.nav-current-circle {
     position: relative;
     width: 5px;
     height: 5px;
     left: 70px;
     top: 0px;
     z-index: 5;
-    }
+    clip-path: circle(50% at 50% 50%);
+    background: #6e44ff;
+}
+
+.nav-nocurrent-circle {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    left: 70px;
+    top: 0px;
+    z-index: 5;
+}
 
 .navbar-nav {
     margin-left: 65px;
     margin-top: 3vw;
     width: 90%;
 }
-
 
 .nav-item {
     margin: 1px;
@@ -88,8 +96,9 @@ background: #6E44FF;
     width: 165px;
     padding: 10%;
 }
-.button__nav{ 
-    background: linear-gradient(180deg, #6E44FF 0%, #4D6CFA 100%), #C4C4C4;
+
+.button__nav {
+    background: linear-gradient(180deg, #6e44ff 0%, #4d6cfa 100%), #c4c4c4;
     border: none;
     font-family: $fuente-secundario;
     font-weight: 500;
@@ -103,6 +112,7 @@ background: #6E44FF;
     border-radius: 5px;
     cursor: pointer;
 }
+
 #nav__menu--color {
     color: $color-nav;
 
@@ -110,6 +120,7 @@ background: #6E44FF;
         color: $color-nav-hover;
     }
 }
+
 #nav__menu--color-current {
     color: $color-nav;
     font-weight: 400;
@@ -122,9 +133,9 @@ background: #6E44FF;
 /* Navbar */
 
 /* Contenido */
-.button__s{
+.button__s {
     position: relative;
-    background: #5E57FC;
+    background: #5e57fc;
     border-radius: 5px;
     top: -3.75vw;
     left: 16vw;
@@ -142,19 +153,22 @@ background: #6E44FF;
     font-size: 18px;
     overflow: hidden;
 }
-.form__subscribirse{
+
+.form__subscribirse {
     position: relative;
     font-size: 1em;
-    background: #2D2A4A;
+    background: #2d2a4a;
     border-radius: 5px;
     padding: 2vw;
     border-style: none;
-    &:focus{
-    background: #2D2A4A;
-    color: white;
+
+    &:focus {
+        background: #2d2a4a;
+        color: white;
     }
 }
-.form__inicio{
+
+.form__inicio {
     position: relative;
     padding: auto;
 }
@@ -163,9 +177,11 @@ background: #6E44FF;
     margin: 0;
     padding: 0;
 }
-.color_text_principal{
+
+.color_text_principal {
     color: $color-primario;
 }
+
 h1 {
     font-family: $fuente-terciario;
     font-size: 4rem;
@@ -178,7 +194,13 @@ h2 {
     color: $color-subtitulos-h5;
 }
 
+h3 {
+    color: $color-titulos-h1;
+}
 
+h4 {
+    color: $color-subtitulos-h5;
+}
 
 .div__articulos {
     height: 120vh;
@@ -207,9 +229,8 @@ h2 {
     top: 0px;
     left: 0px;
     z-index: -3;
-    background: radial-gradient(50% 98.88% at 50% 50%, #221E46 0%, #17182B 100%);
+    background: radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%);
 }
-
 
 .article__div--forma1-text {
     position: absolute;
@@ -221,40 +242,51 @@ h2 {
     }
 }
 
-.inicio__formas-container-iconos{
+.inicio__formas-container-iconos {
     position: relative;
-  
+
     width: 75%;
     height: 25vh;
     top: 75vh;
     left: 0;
     margin: 0 auto;
     padding: 0;
-
-    
 }
-.inicio__formas-box-iconos-1{
-    
+
+.inicio__formas-box-iconos-1 {
     width: 100%;
     height: 100%;
-
 }
-.inicio__formas-box-iconos-2{
-   
+
+.inicio__formas-box-iconos-2 {
     width: 100%;
     height: 100%;
-
 }
-.inicio__formas-box-iconos-3{
-    
+
+.inicio__formas-box-iconos-3 {
     width: 100%;
     height: 100%;
-    
-
 }
 
-.inicio__forma--iconos-1{
-    background-color: #2D2A4A;
+.inicio__text--iconos {
+    position: absolute;
+    text-align: center;
+    left: -5px;
+    margin: 15px 80px;
+
+    h3 {
+        font-family: $fuente-secundario;
+        font-size: 1rem;
+    }
+
+    h4 {
+        font-family: $fuente-secundario;
+        font-size: 0.8rem;
+    }
+}
+
+.inicio__forma--iconos-1 {
+    background-color: #2d2a4a;
     width: 70px;
     padding: 15px;
     border-radius: 5px;
@@ -264,29 +296,29 @@ h2 {
     -o-border-radius: 5px;
 }
 
+.inicio__forma--iconos-2 {
+    background-color: #2d2a4a;
+    width: 70px;
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 
-.inicio__forma--iconos-2{
-   background-color: #2D2A4A;
-   width: 70px;
-   padding: 15px;
-   border-radius: 5px;
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   -ms-border-radius: 5px;
-   -o-border-radius: 5px;
+.inicio__forma--iconos-3 {
+    background-color: #2d2a4a;
+    width: 70px;
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
-.inicio__forma--iconos-3{
-   background-color: #2D2A4A;
-   width: 70px;
-   padding: 15px;
-   border-radius: 5px;
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   -ms-border-radius: 5px;
-   -o-border-radius: 5px;
-}
+
 /* Formas Inicio 1*/
-
 
 /* Formas Acerca de Nosotros */
 
@@ -339,8 +371,6 @@ h2 {
     font-size: 38px;
     line-height: 100%;
     letter-spacing: 4px;
-
-
 }
 
 .div__articulos-acercadenosotros {
@@ -385,21 +415,98 @@ h2 {
 
 @media screen and (max-width: 780px) {
 
+    /* Navbar */
+    header {
+        position: static;
+        background-color: $color-quinario;
+    }
 
+    .navbar-brand {
+        position: relative;
+        top: 0vw;
+        left: 1vw;
+        transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        -o-transform: scale(0.7);
+    }
+
+    .nav-current-circle {
+        position: relative;
+        width: 5px;
+        height: 5px;
+        left: 47px;
+        top: 0px;
+        z-index: 5;
+        clip-path: circle(50% at 50% 50%);
+        background: #6e44ff;
+    }
+
+    .nav-nocurrent-circle {
+        position: relative;
+        width: 5px;
+        height: 5px;
+        left: 70px;
+        top: 0px;
+        z-index: 5;
+    }
+
+    .navbar-nav {
+        margin-left: 65px;
+        margin-top: 1vw;
+        width: 65%;
+    }
+
+    .nav-item {
+        margin: 0.5px;
+        padding: 1px 1px;
+    }
+
+    .nav-link {
+        display: block;
+        text-align: center;
+        font-family: $fuente-secundario;
+        font-weight: 300;
+        font-size: 1.2rem;
+        width: 100px;
+        padding: 4%;
+    }
+
+    .button__nav {
+        padding: 1px 45px;
+        font-size: 1.5rem;
+    }
+
+    /* Navbar */
 
     // Fuentes
     h1 {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     h2 {
         font-size: 14px;
     }
 
-
     // Fuentes
     // Formas
+    .article__div--forma1-text {
+        position: absolute;
+        margin: 5vw 10vw 10vw 10vw;
+        padding: 5vw 10vw 5vw 5vw;
+        width: 80%;
 
+        .form__inicio {
+            width: 150px;
+            top: -20px;
+
+            .button__s {
+                left: 00px;
+                top: 5px;
+            }
+        }
+    }
 
     .article__div--forma-acercadenosotros-1 {
         height: auto;
@@ -424,16 +531,19 @@ h2 {
     button {
         font-size: 10px;
     }
+
     // INICIO
-    .button__s{
+    .button__s {
         font-size: 10px;
         top: -35px;
         left: 150px;
         padding: 5px 10px;
     }
-    .form__subscribirse{
+
+    .form__subscribirse {
         font-size: 15px;
     }
+
     // INICIO
     .div__texto-acercadenosotros-1 {
         width: 100%;
@@ -453,86 +563,158 @@ h2 {
             font-size: 40px;
         }
     }
+
+    .inicio__formas-container-iconos {
+        width: 75%;
+        height: 25vh;
+        top: 40vh;
+        left: 0;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .inicio__text--iconos {
+        position: absolute;
+        text-align: center;
+        left: -5px;
+        margin: 10px;
+
+        h3 {
+            font-family: $fuente-secundario;
+            font-size: 0.9rem;
+        }
+
+        h4 {
+            font-family: $fuente-secundario;
+            font-size: 0.7rem;
+        }
+    }
+
     // Contenido
 }
-@media screen and (max-width: 1200px){
-      // Navbar
-    header{
+
+@media screen and (max-width: 1200px) and (min-width: 780px) {
+
+    // Navbar
+    header {
         position: static;
         background-color: $color-quinario;
     }
-    .nav-current-circle{
+
+    .nav-current-circle {
         left: 80px;
     }
+
     // Navbar
-
-
-    .navbar-brand{
+    .navbar-brand {
         position: relative;
         top: 0vw;
-        left: 5vw;
-        transform:scale(0.7)    ;
-        -webkit-transform:scale(0.7)    ;
-        -moz-transform:scale(0.7)    ;
-        -ms-transform:scale(0.7)    ;
-        -o-transform:scale(0.7)    ;
+        left: 1vw;
+        transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        -o-transform: scale(0.7);
+    }
+
+    .inicio__formas-container-iconos {
+        width: 75%;
+        height: 25vh;
+        top: 55vh;
+        left: 0;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .inicio__text--iconos {
+        position: absolute;
+        text-align: center;
+        left: -5px;
+        margin: 10px;
+
+        h3 {
+            font-family: $fuente-secundario;
+            font-size: 1rem;
+        }
+
+        h4 {
+            font-family: $fuente-secundario;
+            font-size: 0.8rem;
+        }
+    }
+
+    .article__div--forma1-text {
+        position: absolute;
+        margin: 3vw 20vw 10vw 12vw;
+        padding: 0vw 20vw 2vw 0vw;
+    }
 }
 
-}
+@media screen and (max-width: 1450px) and (min-width: 1200px) {
+    // Navbar
 
-@media screen and (max-width: 1450px) and (min-width: 1200px){
-      // Navbar
-    header{
+    header {
         position: absolute;
         width: 100%;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         position: relative;
         top: 1.5vw;
         left: 8vh;
     }
+
     .navbar-color {
         z-index: 5;
     }
-    #nav__icon-color{
+
+    #nav__icon-color {
         color: $color-nav;
-        &:hover{
+
+        &:hover {
             color: $color-nav-hover;
         }
     }
-    
-    .nav-current-circle{
-    position: relative;
-    width: 5px;
-    height: 5px;
-    left: 40px;
-    top: 0px;
-    z-index: 5;
-    clip-path: circle(50% at 50% 50%);
-    background: #6E44FF;
+
+    .nav-current-circle {
+        position: relative;
+        width: 5px;
+        height: 5px;
+        left: 40px;
+        top: 0px;
+        z-index: 5;
+        clip-path: circle(50% at 50% 50%);
+        background: #6e44ff;
     }
-    .nav-nocurrent-circle{
+
+    .nav-nocurrent-circle {
         position: relative;
         width: 5px;
         height: 5px;
         left: 70px;
         top: 0px;
         z-index: 5;
-        }
-    
+    }
+
     .navbar-nav {
         margin-left: 65px;
         margin-top: 3vw;
         width: 90%;
-
     }
-    
-    
+
     .nav-item {
         margin: 1px;
         padding: 1px 8px;
     }
-    
+
     .nav-link {
         display: block;
         text-align: center;
@@ -542,8 +724,9 @@ h2 {
         width: 100px;
         padding: 5%;
     }
-    .button__nav{ 
-        background: linear-gradient(180deg, #6E44FF 0%, #4D6CFA 100%), #C4C4C4;
+
+    .button__nav {
+        background: linear-gradient(180deg, #6e44ff 0%, #4d6cfa 100%), #c4c4c4;
         border: none;
         font-family: $fuente-secundario;
         font-weight: 500;
@@ -557,10 +740,8 @@ h2 {
         border-radius: 5px;
         cursor: pointer;
     }
+
     // Navbar
-
-
-
 }
 
 @media screen and (max-width: 990px) and (min-width: 600px) {

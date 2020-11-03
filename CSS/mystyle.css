@@ -33,7 +33,7 @@ header {
   top: 0px;
   z-index: 5;
   clip-path: circle(50% at 50% 50%);
-  background: #6E44FF; }
+  background: #6e44ff; }
 
 .nav-nocurrent-circle {
   position: relative;
@@ -62,7 +62,7 @@ header {
   padding: 10%; }
 
 .button__nav {
-  background: linear-gradient(180deg, #6E44FF 0%, #4D6CFA 100%), #C4C4C4;
+  background: linear-gradient(180deg, #6e44ff 0%, #4d6cfa 100%), #c4c4c4;
   border: none;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -91,7 +91,7 @@ header {
 /* Contenido */
 .button__s {
   position: relative;
-  background: #5E57FC;
+  background: #5e57fc;
   border-radius: 5px;
   top: -3.75vw;
   left: 16vw;
@@ -112,12 +112,12 @@ header {
 .form__subscribirse {
   position: relative;
   font-size: 1em;
-  background: #2D2A4A;
+  background: #2d2a4a;
   border-radius: 5px;
   padding: 2vw;
   border-style: none; }
   .form__subscribirse:focus {
-    background: #2D2A4A;
+    background: #2d2a4a;
     color: white; }
 
 .form__inicio {
@@ -139,6 +139,12 @@ h1 {
 h2 {
   font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
+  color: #ffffff; }
+
+h3 {
+  color: #ffffff; }
+
+h4 {
   color: #ffffff; }
 
 .div__articulos {
@@ -164,7 +170,7 @@ h2 {
   top: 0px;
   left: 0px;
   z-index: -3;
-  background: radial-gradient(50% 98.88% at 50% 50%, #221E46 0%, #17182B 100%); }
+  background: radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%); }
 
 .article__div--forma1-text {
   position: absolute;
@@ -194,8 +200,20 @@ h2 {
   width: 100%;
   height: 100%; }
 
+.inicio__text--iconos {
+  position: absolute;
+  text-align: center;
+  left: -5px;
+  margin: 15px 80px; }
+  .inicio__text--iconos h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem; }
+  .inicio__text--iconos h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 0.8rem; }
+
 .inicio__forma--iconos-1 {
-  background-color: #2D2A4A;
+  background-color: #2d2a4a;
   width: 70px;
   padding: 15px;
   border-radius: 5px;
@@ -205,7 +223,7 @@ h2 {
   -o-border-radius: 5px; }
 
 .inicio__forma--iconos-2 {
-  background-color: #2D2A4A;
+  background-color: #2d2a4a;
   width: 70px;
   padding: 15px;
   border-radius: 5px;
@@ -215,7 +233,7 @@ h2 {
   -o-border-radius: 5px; }
 
 .inicio__forma--iconos-3 {
-  background-color: #2D2A4A;
+  background-color: #2d2a4a;
   width: 70px;
   padding: 15px;
   border-radius: 5px;
@@ -284,7 +302,7 @@ h2 {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  background-color: #17182B;
+  background-color: #17182b;
   color: aliceblue;
   font-size: 1.3rem;
   width: 100%;
@@ -301,10 +319,69 @@ h2 {
 /* Footer */
 /* MEDIA QUERIES */
 @media screen and (max-width: 780px) {
+  /* Navbar */
+  header {
+    position: static;
+    background-color: #17182b; }
+  .navbar-brand {
+    position: relative;
+    top: 0vw;
+    left: 1vw;
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7); }
+  .nav-current-circle {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    left: 47px;
+    top: 0px;
+    z-index: 5;
+    clip-path: circle(50% at 50% 50%);
+    background: #6e44ff; }
+  .nav-nocurrent-circle {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    left: 70px;
+    top: 0px;
+    z-index: 5; }
+  .navbar-nav {
+    margin-left: 65px;
+    margin-top: 1vw;
+    width: 65%; }
+  .nav-item {
+    margin: 0.5px;
+    padding: 1px 1px; }
+  .nav-link {
+    display: block;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    width: 100px;
+    padding: 4%; }
+  .button__nav {
+    padding: 1px 45px;
+    font-size: 1.5rem; }
+  /* Navbar */
   h1 {
-    font-size: 20px; }
+    font-size: 24px; }
   h2 {
     font-size: 14px; }
+  .article__div--forma1-text {
+    position: absolute;
+    margin: 5vw 10vw 10vw 10vw;
+    padding: 5vw 10vw 5vw 5vw;
+    width: 80%; }
+    .article__div--forma1-text .form__inicio {
+      width: 150px;
+      top: -20px; }
+      .article__div--forma1-text .form__inicio .button__s {
+        left: 00px;
+        top: 5px; }
   .article__div--forma-acercadenosotros-1 {
     height: auto; }
   .article__div--forma-acercadenosotros-box {
@@ -331,23 +408,67 @@ h2 {
     margin: 20px 0;
     font-size: 15px; }
   .div__texto-acercadenosotros-1 h1 {
-    font-size: 40px; } }
+    font-size: 40px; }
+  .inicio__formas-container-iconos {
+    width: 75%;
+    height: 25vh;
+    top: 40vh;
+    left: 0;
+    margin: 0 auto;
+    padding: 0; }
+  .inicio__text--iconos {
+    position: absolute;
+    text-align: center;
+    left: -5px;
+    margin: 10px; }
+    .inicio__text--iconos h3 {
+      font-family: "Raleway", sans-serif;
+      font-size: 0.9rem; }
+    .inicio__text--iconos h4 {
+      font-family: "Raleway", sans-serif;
+      font-size: 0.7rem; } }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) and (min-width: 780px) {
   header {
     position: static;
-    background-color: #17182B; }
+    background-color: #17182b; }
   .nav-current-circle {
     left: 80px; }
   .navbar-brand {
     position: relative;
     top: 0vw;
-    left: 5vw;
+    left: 1vw;
     transform: scale(0.7);
     -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);
     -ms-transform: scale(0.7);
-    -o-transform: scale(0.7); } }
+    -o-transform: scale(0.7); }
+  .inicio__formas-container-iconos {
+    width: 75%;
+    height: 25vh;
+    top: 55vh;
+    left: 0;
+    margin: 0 auto;
+    padding: 0; }
+  h1 {
+    font-size: 40px; }
+  h2 {
+    font-size: 20px; }
+  .inicio__text--iconos {
+    position: absolute;
+    text-align: center;
+    left: -5px;
+    margin: 10px; }
+    .inicio__text--iconos h3 {
+      font-family: "Raleway", sans-serif;
+      font-size: 1rem; }
+    .inicio__text--iconos h4 {
+      font-family: "Raleway", sans-serif;
+      font-size: 0.8rem; }
+  .article__div--forma1-text {
+    position: absolute;
+    margin: 3vw 20vw 10vw 12vw;
+    padding: 0vw 20vw 2vw 0vw; } }
 
 @media screen and (max-width: 1450px) and (min-width: 1200px) {
   header {
@@ -371,7 +492,7 @@ h2 {
     top: 0px;
     z-index: 5;
     clip-path: circle(50% at 50% 50%);
-    background: #6E44FF; }
+    background: #6e44ff; }
   .nav-nocurrent-circle {
     position: relative;
     width: 5px;
@@ -395,7 +516,7 @@ h2 {
     width: 100px;
     padding: 5%; }
   .button__nav {
-    background: linear-gradient(180deg, #6E44FF 0%, #4D6CFA 100%), #C4C4C4;
+    background: linear-gradient(180deg, #6e44ff 0%, #4d6cfa 100%), #c4c4c4;
     border: none;
     font-family: "Raleway", sans-serif;
     font-weight: 500;
