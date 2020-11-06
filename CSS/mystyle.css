@@ -66,7 +66,7 @@ header {
   border: none;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  color: white;
+  color: #ffffff;
   padding: 10px 80px;
   text-align: center;
   text-decoration: none;
@@ -91,7 +91,7 @@ header {
 /* Contenido */
 .button__s {
   position: relative;
-  background: #5e57fc;
+  background: #4d6cfa;
   border-radius: 5px;
   top: -3.75vw;
   left: 16vw;
@@ -118,7 +118,7 @@ header {
   border-style: none; }
   .form__subscribirse:focus {
     background: #2d2a4a;
-    color: white; }
+    color: #ffffff; }
 
 .form__inicio {
   position: relative;
@@ -132,7 +132,7 @@ header {
   color: #6e44ff; }
 
 .color_text_acerca-de {
-  color: #E40066; }
+  color: #e40066; }
 
 h1 {
   font-family: "Retroica";
@@ -307,7 +307,7 @@ h4 {
   flex-flow: column nowrap;
   align-items: center;
   background-color: #17182b;
-  color: aliceblue;
+  color: #ffffff;
   font-size: 1rem;
   width: 100%;
   padding: 2rem; }
@@ -523,7 +523,7 @@ h4 {
     border: none;
     font-family: "Raleway", sans-serif;
     font-weight: 500;
-    color: white;
+    color: #ffffff;
     padding: 10px 80px;
     text-align: center;
     text-decoration: none;

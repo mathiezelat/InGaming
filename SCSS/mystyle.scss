@@ -11,12 +11,13 @@ $color-secundario: #4d6cfa;
 $color-terciario: #5e58fd;
 $color-cuartenario: #2f3061;
 $color-quinario: #17182b;
-$color-acercade: #E40066;
+$color-acercade: #e40066;
 $color-nav: #ffffff;
 $color-nav-hover: #6e44ff;
 $color-sombra: #000000;
 $color-titulos-h1: #ffffff;
 $color-subtitulos-h5: #ffffff;
+$color-fondo-formas:#2d2a4a;
 
 // Colores de la pagina
 // Fuentes
@@ -65,7 +66,7 @@ header {
     top: 0px;
     z-index: 5;
     clip-path: circle(50% at 50% 50%);
-    background: #6e44ff;
+    background: $color-primario;
 }
 
 .nav-nocurrent-circle {
@@ -103,7 +104,7 @@ header {
     border: none;
     font-family: $fuente-secundario;
     font-weight: 500;
-    color: white;
+    color: $color-nav;
     padding: 10px 80px;
     text-align: center;
     text-decoration: none;
@@ -136,7 +137,7 @@ header {
 /* Contenido */
 .button__s {
     position: relative;
-    background: #5e57fc;
+    background: $color-secundario;
     border-radius: 5px;
     top: -3.75vw;
     left: 16vw;
@@ -158,14 +159,14 @@ header {
 .form__subscribirse {
     position: relative;
     font-size: 1em;
-    background: #2d2a4a;
+    background: $color-fondo-formas;
     border-radius: 5px;
     padding: 2vw;
     border-style: none;
 
     &:focus {
-        background: #2d2a4a;
-        color: white;
+        background: $color-fondo-formas;
+        color: $color-nav;
     }
 }
 
@@ -182,6 +183,7 @@ header {
 .color_text_principal {
     color: $color-primario;
 }
+
 .color_text_acerca-de {
     color: $color-acercade;
 }
@@ -290,7 +292,7 @@ h4 {
 }
 
 .inicio__forma--iconos-1 {
-    background-color: #2d2a4a;
+    background-color: $color-fondo-formas;
     width: 70px;
     padding: 15px;
     border-radius: 5px;
@@ -301,7 +303,7 @@ h4 {
 }
 
 .inicio__forma--iconos-2 {
-    background-color: #2d2a4a;
+    background-color: $color-fondo-formas;
     width: 70px;
     padding: 15px;
     border-radius: 5px;
@@ -312,7 +314,7 @@ h4 {
 }
 
 .inicio__forma--iconos-3 {
-    background-color: #2d2a4a;
+    background-color: $color-fondo-formas;
     width: 70px;
     padding: 15px;
     border-radius: 5px;
@@ -349,7 +351,6 @@ h4 {
     left: 0px;
     z-index: -1;
     background: radial-gradient(60% 99% at 0% 50%, #221e46 0%, #17182b 100%);
-    
 }
 
 .div__texto-acercadenosotros-1 {
@@ -400,13 +401,13 @@ h4 {
     flex-flow: column nowrap;
     align-items: center;
     background-color: $color-quinario;
-    color: aliceblue;
+    color: $color-titulos-h1;
     font-size: 1rem;
     width: 100%;
     padding: 2rem;
 }
 
-.footer__text{
+.footer__text {
     position: relative;
     display: flex;
     flex-flow: column nowrap;
@@ -414,7 +415,7 @@ h4 {
 }
 
 .footer__copy {
-    background-color: #6e44ff;
+    background-color:$color-primario;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -453,7 +454,7 @@ h4 {
         top: 0px;
         z-index: 5;
         clip-path: circle(50% at 50% 50%);
-        background: #6e44ff;
+        background: $color-primario;
     }
 
     .nav-nocurrent-circle {
@@ -521,8 +522,6 @@ h4 {
         }
     }
 
-   
-
     // Formas
     // Formas Texto
 
@@ -586,7 +585,6 @@ h4 {
         h3 {
             font-family: $fuente-secundario;
             font-size: 0.9rem;
-            
         }
 
         h4 {
@@ -697,7 +695,7 @@ h4 {
         top: 0px;
         z-index: 5;
         clip-path: circle(50% at 50% 50%);
-        background: #6e44ff;
+        background: $color-primario;
     }
 
     .nav-nocurrent-circle {
@@ -735,7 +733,7 @@ h4 {
         border: none;
         font-family: $fuente-secundario;
         font-weight: 500;
-        color: white;
+        color:$color-titulos-h1;
         padding: 10px 80px;
         text-align: center;
         text-decoration: none;
