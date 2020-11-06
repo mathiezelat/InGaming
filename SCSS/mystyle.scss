@@ -11,6 +11,7 @@ $color-secundario: #4d6cfa;
 $color-terciario: #5e58fd;
 $color-cuartenario: #2f3061;
 $color-quinario: #17182b;
+$color-acercade: #E40066;
 $color-nav: #ffffff;
 $color-nav-hover: #6e44ff;
 $color-sombra: #000000;
@@ -181,6 +182,9 @@ header {
 .color_text_principal {
     color: $color-primario;
 }
+.color_text_acerca-de {
+    color: $color-acercade;
+}
 
 h1 {
     font-family: $fuente-terciario;
@@ -324,27 +328,28 @@ h4 {
 
 .article__div--forma-acercadenosotros-box {
     width: 0 auto;
-    height: 60vw;
-    background-color: $color-sombra;
+    height: 120vh;
+    background: radial-gradient(60% 99% at 100% 50%, #221e46 0%, #17182b 100%);
     overflow: hidden;
 }
 
 .article__div--forma-acercadenosotros-1 {
     width: 100vw;
-    height: 100vw;
+    height: 120vh;
     top: 0px;
     left: 0px;
     z-index: -2;
-    background: $color-cuartenario;
+    background: radial-gradient(60% 99% at 50% 50%, #221e46 0%, #17182b 100%);
 }
 
 .article__div--forma-acercadenosotros-2 {
     width: 100vw;
-    height: 100vw;
+    height: 120vh;
     top: 0px;
     left: 0px;
     z-index: -1;
-    background: $color-terciario;
+    background: radial-gradient(60% 99% at 0% 50%, #221e46 0%, #17182b 100%);
+    
 }
 
 .div__texto-acercadenosotros-1 {
@@ -516,16 +521,7 @@ h4 {
         }
     }
 
-    .article__div--forma-acercadenosotros-1 {
-        height: auto;
-    }
-
-    .article__div--forma-acercadenosotros-box {
-        width: 0 auto;
-        height: auto;
-        background-color: $color-sombra;
-        overflow: hidden;
-    }
+   
 
     // Formas
     // Formas Texto

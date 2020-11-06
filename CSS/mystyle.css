@@ -131,6 +131,9 @@ header {
 .color_text_principal {
   color: #6e44ff; }
 
+.color_text_acerca-de {
+  color: #E40066; }
+
 h1 {
   font-family: "Retroica";
   font-size: 4rem;
@@ -246,25 +249,25 @@ h4 {
 /* Formas Acerca de Nosotros */
 .article__div--forma-acercadenosotros-box {
   width: 0 auto;
-  height: 60vw;
-  background-color: #000000;
+  height: 120vh;
+  background: radial-gradient(60% 99% at 100% 50%, #221e46 0%, #17182b 100%);
   overflow: hidden; }
 
 .article__div--forma-acercadenosotros-1 {
   width: 100vw;
-  height: 100vw;
+  height: 120vh;
   top: 0px;
   left: 0px;
   z-index: -2;
-  background: #2f3061; }
+  background: radial-gradient(60% 99% at 50% 50%, #221e46 0%, #17182b 100%); }
 
 .article__div--forma-acercadenosotros-2 {
   width: 100vw;
-  height: 100vw;
+  height: 120vh;
   top: 0px;
   left: 0px;
   z-index: -1;
-  background: #5e58fd; }
+  background: radial-gradient(60% 99% at 0% 50%, #221e46 0%, #17182b 100%); }
 
 .div__texto-acercadenosotros-1 {
   padding: 10vw 5vw;
@@ -389,13 +392,6 @@ h4 {
       .article__div--forma1-text .form__inicio .button__s {
         left: 00px;
         top: 5px; }
-  .article__div--forma-acercadenosotros-1 {
-    height: auto; }
-  .article__div--forma-acercadenosotros-box {
-    width: 0 auto;
-    height: auto;
-    background-color: #000000;
-    overflow: hidden; }
   input {
     font-size: 24px; }
   button {
