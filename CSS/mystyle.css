@@ -89,20 +89,20 @@ header {
 
 /* Navbar */
 /* Contenido */
-.button__s {
+.button__suscribirse {
   position: relative;
   background: #4d6cfa;
   border-radius: 5px;
-  top: -3.75vw;
-  left: 16vw;
+  top: -69px;
+  left: 320px;
   border: none;
   color: white;
-  padding: 0.7vw 2.4vw;
+  padding: 10px 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 0.35vw 0.1vw;
+  margin: 8px 1px;
   cursor: pointer;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -114,7 +114,7 @@ header {
   font-size: 1em;
   background: #2d2a4a;
   border-radius: 5px;
-  padding: 2vw;
+  padding: 37px;
   border-style: none; }
   .form__subscribirse:focus {
     background: #2d2a4a;
@@ -122,6 +122,8 @@ header {
 
 .form__inicio {
   position: relative;
+  width: 500px;
+  height: 150px;
   padding: auto; }
 
 #div__contenedores {
@@ -269,32 +271,61 @@ h4 {
   z-index: -1;
   background: radial-gradient(60% 99% at 0% 50%, #221e46 0%, #17182b 100%); }
 
-.div__texto-acercadenosotros-1 {
-  padding: 10vw 5vw;
+.acerca-de__text {
+  padding: 13vw 5vw 5vw 13vw;
   width: 50%;
-  height: 50%;
+  height: 100%;
   font-size: 48px;
   line-height: 100%;
-  letter-spacing: 4px; }
-  .div__texto-acercadenosotros-1 h5 {
-    margin: 20px 0; }
-  .div__texto-acercadenosotros-1 h1 {
+  letter-spacing: 2px; }
+  .acerca-de__text h2 {
+    margin: 20px 0;
+    padding: 0 2vw 0 0; }
+  .acerca-de__text h1 {
     font-size: 64px; }
-
-.div__texto-acercadenosotros-2 {
-  padding: 15vw 5vw;
-  width: 55%;
-  height: 50%;
-  font-size: 38px;
-  line-height: 100%;
-  letter-spacing: 4px; }
 
 .div__articulos-acercadenosotros {
   margin: 0;
   padding: 0; }
 
+.acerca-de__form {
+  position: relative;
+  top: 400px;
+  width: 700px;
+  left: 40px; }
+  .acerca-de__form h1 {
+    font-size: 56px; }
+
 /* Formas Acerca de Nosotros */
 /* Formas */
+/* Start*/
+.start__text {
+  position: absolute;
+  margin: 13vw 40vw 10vw 15vw;
+  padding: 0vw 20vw 2vw 0vw; }
+  .start__text h1 {
+    width: 28vw; }
+  .start__text h2 {
+    padding: 0.2vw 0vw 0vw 0vw; }
+
+.start__app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 50px;
+  width: 300px;
+  margin: auto;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2); }
+
+.start__app-item {
+  padding: 2px; }
+
+/* Start*/
 /* Footer */
 .footer__container {
   position: relative;
@@ -386,32 +417,6 @@ h4 {
     margin: 5vw 10vw 10vw 10vw;
     padding: 5vw 10vw 5vw 5vw;
     width: 80%; }
-    .article__div--forma1-text .form__inicio {
-      width: 150px;
-      top: -20px; }
-      .article__div--forma1-text .form__inicio .button__s {
-        left: 00px;
-        top: 5px; }
-  input {
-    font-size: 24px; }
-  button {
-    font-size: 10px; }
-  .button__s {
-    font-size: 10px;
-    top: -35px;
-    left: 150px;
-    padding: 5px 10px; }
-  .form__subscribirse {
-    font-size: 15px; }
-  .div__texto-acercadenosotros-1 {
-    width: 100%; }
-  .div__texto-acercadenosotros-2 {
-    width: 100%; }
-  .div__texto-acercadenosotros-1 h5 {
-    margin: 20px 0;
-    font-size: 15px; }
-  .div__texto-acercadenosotros-1 h1 {
-    font-size: 40px; }
   .inicio__formas-container-iconos {
     width: 75%;
     height: 10em;
@@ -429,7 +434,62 @@ h4 {
       font-size: 0.9rem; }
     .inicio__text--iconos h4 {
       font-family: "Raleway", sans-serif;
-      font-size: 0.7rem; } }
+      font-size: 0.7rem; }
+  .acerca-de__text {
+    padding: auto;
+    width: 100%;
+    height: 100%;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 2px; }
+    .acerca-de__text h2 {
+      margin: 20px 0;
+      padding: auto;
+      font-size: 17px; }
+    .acerca-de__text h1 {
+      font-size: 48px; }
+  .acerca-de__form {
+    position: relative;
+    top: 200px;
+    width: 400px;
+    left: 60px; }
+    .acerca-de__form h1 {
+      font-size: 30px; }
+  .button__suscribirse {
+    position: relative;
+    background: #4d6cfa;
+    border-radius: 5px;
+    top: -57px;
+    left: 160px;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 1px;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    overflow: hidden; }
+  .form__subscribirse {
+    position: relative;
+    font-size: 1em;
+    background: #2d2a4a;
+    border-radius: 5px;
+    padding: 30px;
+    border-style: none;
+    font-size: 14px; }
+    .form__subscribirse:focus {
+      background: #2d2a4a;
+      color: #ffffff; }
+  .form__inicio {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    padding: auto; } }
 
 @media screen and (max-width: 1200px) and (min-width: 780px) {
   header {
