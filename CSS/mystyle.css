@@ -427,7 +427,149 @@ h4 {
 
 /* Footer */
 /* MEDIA QUERIES */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 370px) {
+  header {
+    position: static;
+    background-color: #17182b; }
+  .navbar-brand {
+    position: relative;
+    top: 0vw;
+    left: 1vw;
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7); }
+  .div__articulos__acerca-de {
+    height: auto;
+    margin: 0;
+    padding: 0; }
+  .nav-current-circle {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    left: 47px;
+    top: 0px;
+    z-index: 5;
+    clip-path: circle(50% at 50% 50%);
+    background: #6e44ff; }
+  .nav-nocurrent-circle {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    left: 70px;
+    top: 0px;
+    z-index: 5; }
+  .navbar-nav {
+    margin-left: 65px;
+    margin-top: 1vw;
+    width: 65%; }
+  .nav-item {
+    margin: 0.5px;
+    padding: 1px 1px; }
+  .nav-link {
+    display: block;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    width: 100px;
+    padding: 4%; }
+  .button__nav {
+    padding: 1px 45px;
+    font-size: 1.5rem; }
+  /* Navbar */
+  h1 {
+    font-size: 24px; }
+  h2 {
+    font-size: 14px; }
+  .page__forma-text {
+    position: absolute;
+    margin: 5vw 3vw 4vw 5vw;
+    padding: 5vw 3vw 3vw 3vw;
+    width: 70%; }
+  .inicio__formas-container-iconos {
+    width: 75%;
+    height: 10em;
+    top: 20em;
+    left: 0;
+    margin: 0 auto;
+    padding: 0 auto; }
+  .inicio__text--iconos {
+    position: absolute;
+    text-align: center;
+    left: -5px;
+    margin: 5px; }
+    .inicio__text--iconos h3 {
+      font-family: "Raleway", sans-serif;
+      font-size: 0.9rem; }
+    .inicio__text--iconos h4 {
+      font-family: "Raleway", sans-serif;
+      font-size: 0.7rem; }
+  .acerca-de__fondo-box {
+    position: absolute;
+    height: 135vh;
+    width: 100%;
+    background-color: #000000;
+    z-index: -1;
+    overflow: hidden; }
+  .acerca-de__text {
+    padding: auto;
+    width: 100%;
+    height: 100%;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 2px; }
+    .acerca-de__text h2 {
+      margin: 20px 0;
+      padding: auto;
+      font-size: 17px; }
+    .acerca-de__text h1 {
+      font-size: 48px; }
+  .acerca-de__form {
+    position: relative;
+    top: 10px;
+    width: 400px;
+    left: 6vw; }
+    .acerca-de__form h1 {
+      font-size: 21px; }
+  .button__suscribirse {
+    position: relative;
+    background: #4d6cfa;
+    border-radius: 5px;
+    top: -49px;
+    left: 144px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 1px;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    overflow: hidden; }
+  .form__subscribirse {
+    position: relative;
+    font-size: 1em;
+    background: #2d2a4a;
+    border-radius: 5px;
+    padding: 25px;
+    border-style: none;
+    font-size: 14px; }
+    .form__subscribirse:focus {
+      background: #2d2a4a;
+      color: #ffffff; }
+  .form__inicio {
+    position: relative;
+    width: 250px;
+    height: 130px;
+    padding: auto; } }
+
+@media screen and (max-width: 780px) and (min-width: 370px) {
   /* Navbar */
   header {
     position: static;
@@ -509,8 +651,8 @@ h4 {
       font-size: 0.7rem; }
   .acerca-de__fondo-box {
     position: absolute;
-    height: 100vh;
-    width: 130%;
+    height: 115vh;
+    width: 100%;
     background-color: #000000;
     z-index: -1;
     overflow: hidden; }
@@ -533,7 +675,7 @@ h4 {
     width: 400px;
     left: 6vw; }
     .acerca-de__form h1 {
-      font-size: 23px; }
+      font-size: 21px; }
   .button__suscribirse {
     position: relative;
     background: #4d6cfa;
