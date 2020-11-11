@@ -510,7 +510,7 @@ h4 {
   .acerca-de__fondo-box {
     position: absolute;
     height: 100vh;
-    width: 100%;
+    width: 120%;
     background-color: #000000;
     z-index: -1;
     overflow: hidden; }
