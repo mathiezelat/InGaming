@@ -484,11 +484,11 @@ h4 {
     font-size: 24px; }
   h2 {
     font-size: 14px; }
-  .article__div--forma1-text {
+  .page__forma-text {
     position: absolute;
-    margin: 5vw 10vw 10vw 10vw;
-    padding: 5vw 10vw 5vw 5vw;
-    width: 80%; }
+    margin: 5vw 3vw 4vw 5vw;
+    padding: 5vw 3vw 3vw 3vw;
+    width: 70%; }
   .inicio__formas-container-iconos {
     width: 75%;
     height: 10em;
@@ -538,11 +538,11 @@ h4 {
     position: relative;
     background: #4d6cfa;
     border-radius: 5px;
-    top: -57px;
-    left: 160px;
+    top: -49px;
+    left: 144px;
     border: none;
     color: white;
-    padding: 8px 25px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -558,7 +558,7 @@ h4 {
     font-size: 1em;
     background: #2d2a4a;
     border-radius: 5px;
-    padding: 30px;
+    padding: 25px;
     border-style: none;
     font-size: 14px; }
     .form__subscribirse:focus {
@@ -566,8 +566,8 @@ h4 {
       color: #ffffff; }
   .form__inicio {
     position: relative;
-    width: 300px;
-    height: 150px;
+    width: 250px;
+    height: 130px;
     padding: auto; } }
 
 @media screen and (max-width: 1200px) and (min-width: 780px) {

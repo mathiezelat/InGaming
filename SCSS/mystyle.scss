@@ -651,11 +651,11 @@ top: 13vw;
 
     // Fuentes
     // Formas
-    .article__div--forma1-text {
+    .page__forma-text {
         position: absolute;
-        margin: 5vw 10vw 10vw 10vw;
-        padding: 5vw 10vw 5vw 5vw;
-        width: 80%;
+        margin: 5vw 3vw 4vw 5vw;
+        padding: 5vw 3vw 3vw 3vw;
+        width: 70%;
     }
 
     // Formas
@@ -737,11 +737,11 @@ top: 13vw;
         position: relative;
         background: $color-secundario;
         border-radius: 5px;
-        top: -57px;
-        left: 160px;
+        top: -49px;
+        left: 144px;
         border: none;
         color: white;
-        padding: 8px 25px;
+        padding: 5px 10px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -759,7 +759,7 @@ top: 13vw;
         font-size: 1em;
         background: $color-fondo-formas;
         border-radius: 5px;
-        padding: 30px;
+        padding: 25px;
         border-style: none;
         font-size: 14px;
     
@@ -772,8 +772,8 @@ top: 13vw;
     
     .form__inicio {
         position: relative;
-        width: 300px;
-        height: 150px;
+        width: 250px;
+        height: 130px;
         padding: auto;
         
     }
