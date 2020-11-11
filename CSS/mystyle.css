@@ -107,7 +107,8 @@ header {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 18px;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 5; }
 
 .form__subscribirse {
   position: relative;
@@ -115,7 +116,8 @@ header {
   background: #2d2a4a;
   border-radius: 5px;
   padding: 37px;
-  border-style: none; }
+  border-style: none;
+  z-index: 3; }
   .form__subscribirse:focus {
     background: #2d2a4a;
     color: #ffffff; }
@@ -124,7 +126,8 @@ header {
   position: relative;
   width: 500px;
   height: 150px;
-  padding: auto; }
+  padding: auto;
+  z-index: 2; }
 
 #div__contenedores {
   margin: 0;
@@ -254,6 +257,23 @@ h4 {
   margin: 0;
   padding: 0; }
 
+.acerca-de__fondo-box {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  z-index: -1;
+  overflow: hidden; }
+
+.acerca-de__fondo {
+  position: absolute;
+  width: 100vw;
+  height: 145vh;
+  top: 0px;
+  left: 0px;
+  z-index: -3;
+  background: radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%); }
+
 .acerca-de__text-box {
   width: 100%;
   height: 100%; }
@@ -290,6 +310,60 @@ h4 {
 
 /* Formas Acerca de Nosotros */
 /* Formas */
+/* Contacto */
+.contact__fondo-box {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  overflow: hidden; }
+
+.contact__fondo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 145vh;
+  left: 0px;
+  background: radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%); }
+
+.contact__forma-text {
+  position: relative;
+  top: 13vw; }
+
+.form__contact {
+  background: #2d2a4a;
+  border-style: none;
+  font-family: "Raleway", sans-serif;
+  padding: 30px 10px;
+  z-index: 3; }
+  .form__contact:focus {
+    background: #2d2a4a;
+    color: #ffffff; }
+
+.form__contact-textarea {
+  background-color: #2d2a4a;
+  font-family: "Raleway", sans-serif;
+  padding: 10px 0px 100px 10px;
+  border-style: none; }
+  .form__contact-textarea:focus {
+    background-color: #2d2a4a;
+    color: #ffffff; }
+
+.button__contact {
+  background-color: #5e58fd;
+  border-style: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+  padding: 10px 50px; }
+  .button__contact:hover {
+    background-color: #4d6cfa;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s; }
+
+/* Contacto */
 /* Start*/
 .start__text {
   position: absolute;
@@ -433,6 +507,13 @@ h4 {
     .inicio__text--iconos h4 {
       font-family: "Raleway", sans-serif;
       font-size: 0.7rem; }
+  .acerca-de__fondo-box {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    z-index: -1;
+    overflow: hidden; }
   .acerca-de__text {
     padding: auto;
     width: 100%;
@@ -450,9 +531,9 @@ h4 {
     position: relative;
     top: 10px;
     width: 400px;
-    left: 60px; }
+    left: 6vw; }
     .acerca-de__form h1 {
-      font-size: 25px; }
+      font-size: 23px; }
   .button__suscribirse {
     position: relative;
     background: #4d6cfa;
