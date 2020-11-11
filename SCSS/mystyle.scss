@@ -217,31 +217,30 @@ h4 {
     padding: 0;
 }
 
+
 /* Contenido */
 
 /* Formas */
-
-/* Formas Inicio 1*/
-.article__div--forma1-box {
+.page__fondo-box {
     position: absolute;
-    height: 100%;
+    height: 105%;
     width: 100%;
     background-color: $color-sombra;
     z-index: -1;
     overflow: hidden;
 }
 
-.article__div--forma1 {
+.page__fondo {
     position: absolute;
     width: 100vw;
-    height: 140vh;
+    height: 145vh;
     top: 0px;
     left: 0px;
     z-index: -3;
     background: radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%);
 }
 
-.article__div--forma1-text {
+.page__forma-text{
     position: absolute;
     margin: 14vw 40vw 10vw 12vw;
     padding: 0vw 20vw 2vw 0vw;
@@ -250,6 +249,8 @@ h4 {
         padding: 0.2vw 0vw 0vw 0vw;
     }
 }
+/* Formas Inicio 1*/
+
 
 .inicio__formas-container-iconos {
     position: relative;
@@ -261,6 +262,7 @@ h4 {
     margin: 0 auto;
     padding: 0;
 }
+
 
 .inicio__formas-box-iconos-1 {
     width: 100%;
@@ -331,36 +333,20 @@ h4 {
 
 /* Formas Acerca de Nosotros */
 
-.article__div--forma-acercadenosotros-box {
-    width: 0 auto;
-    height: 120vh;
-    background: radial-gradient(60% 99% at 100% 50%, #221e46 0%, #17182b 100%);
-    overflow: hidden;
+.div__articulos__acerca-de{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
 }
 
-.article__div--forma-acercadenosotros-1 {
-    width: 100vw;
-    height: 120vh;
-    top: 0px;
-    left: 0px;
-    z-index: -2;
-    background: radial-gradient(60% 99% at 50% 50%, #221e46 0%, #17182b 100%);
-}
-
-.article__div--forma-acercadenosotros-2 {
-    width: 100vw;
-    height: 120vh;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-    background: radial-gradient(60% 99% at 0% 50%, #221e46 0%, #17182b 100%);
-}
-
-.acerca-de__text {
-    padding: 13vw 5vw 5vw 13vw;
-    width: 50%;
+.acerca-de__text-box{
+    width: 100%;
     height: 100%;
-    font-size: 48px;
+}
+.acerca-de__text {
+    padding: 14vw 5vw 5vw 10vw;
+    font-size: 40px;
     line-height: 100%;
     letter-spacing: 2px;
 
@@ -370,22 +356,31 @@ h4 {
     }
 
     h1 {
-        font-size: 64px;
+        font-size: 60px;
     }
 }
 
 
-.div__articulos-acercadenosotros {
+.div__articulos_acerca-de {
     margin: 0;
     padding: 0;
 }
+.acerca-de__form-box{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+
+}
 .acerca-de__form{
     position: relative;
-    top: 400px;
-    width: 700px;
-    left: 40px;
+    left: 10px;
+    top: 20px;
+    width: 100%;
+
     h1{
-        font-size: 56px;
+        font-size: 35px;
     }
 }
 /* Formas Acerca de Nosotros */
@@ -429,6 +424,8 @@ h4 {
 /* Footer */
 .footer__container {
     position: relative;
+    bottom:0px;
+    left: 0px;
     height: 10em;
     margin: 0;
     padding: 0;
@@ -466,7 +463,7 @@ h4 {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 780px) {
-
+  
     /* Navbar */
     header {
         position: static;
@@ -482,6 +479,13 @@ h4 {
         -moz-transform: scale(0.7);
         -ms-transform: scale(0.7);
         -o-transform: scale(0.7);
+    }
+
+    .div__articulos__acerca-de{
+        height: auto;
+        margin: 0;
+        padding: 0;
+    
     }
 
     .nav-current-circle {
@@ -605,11 +609,11 @@ h4 {
     }
     .acerca-de__form{
         position: relative;
-        top:200px;
+        top:10px;
         width: 400px;
         left: 60px;
         h1{
-            font-size: 30px;
+            font-size: 25px;
         }
     }
     // Acerca de
@@ -665,7 +669,75 @@ h4 {
 }
 
 @media screen and (max-width: 1200px) and (min-width: 780px) {
+    .button__suscribirse {
+        position: relative;
+        background: $color-secundario;
+        border-radius: 5px;
+        top: -57px;
+        left: 200px;
+        border: none;
+        color: white;
+        padding: 8px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 8px 1px;
+        cursor: pointer;
+        font-family: $fuente-secundario;
+        font-weight: 500;
+        font-size: 15px;
+        overflow: hidden;
+    }
 
+    .form__subscribirse {
+        position: relative;
+        font-size: 1em;
+        background: $color-fondo-formas;
+        border-radius: 5px;
+        padding: 30px;
+        border-style: none;
+        font-size: 14px;
+    
+        &:focus {
+            background: $color-fondo-formas;
+            color: $color-nav;
+        }
+        
+    }
+    .form__inicio {
+        position: relative;
+        width: 350px;
+        height: 200px;
+        padding: auto;
+        
+    }
+    .acerca-de__form{
+        position: relative;
+        top:10px;
+        width: 400px;
+        left: 10vw;
+        h1{
+            font-size: 25px;
+        }
+    }
+    .acerca-de__text { 
+        letter-spacing: 1px;
+    
+        h2 {
+            font-size: 20px;
+        }
+    
+        h1 {
+            font-size: 40px;
+        }
+    }
+    .div__articulos__acerca-de{
+        height: auto;
+        margin: 0;
+        padding: 0;
+    
+    }
     // Navbar
     header {
         position: static;
@@ -813,6 +885,18 @@ h4 {
     }
 
     // Navbar
+
+    .acerca-de__text { 
+        letter-spacing: 1px;
+    
+        h2 {
+            font-size: 23px;
+        }
+    
+        h1 {
+            font-size: 45px;
+        }
+    }
 }
 
 @media screen and (max-width: 990px) and (min-width: 600px) {
