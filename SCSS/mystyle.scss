@@ -169,6 +169,7 @@ header {
         background: $color-fondo-formas;
         color: $color-nav;
     }
+
     z-index: 3;
 }
 
@@ -242,7 +243,7 @@ h4 {
     background: radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%);
 }
 
-.page__forma-text{
+.page__forma-text {
     position: absolute;
     margin: 14vw 40vw 10vw 12vw;
     padding: 0vw 20vw 2vw 0vw;
@@ -251,6 +252,7 @@ h4 {
         padding: 0.2vw 0vw 0vw 0vw;
     }
 }
+
 /* Formas Inicio 1*/
 
 
@@ -335,7 +337,7 @@ h4 {
 
 /* Formas Acerca de Nosotros */
 
-.div__articulos__acerca-de{
+.div__articulos__acerca-de {
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -361,10 +363,11 @@ h4 {
     background: radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%);
 }
 
-.acerca-de__text-box{
+.acerca-de__text-box {
     width: 100%;
     height: 100%;
 }
+
 .acerca-de__text {
     padding: 14vw 5vw 5vw 10vw;
     font-size: 40px;
@@ -373,7 +376,7 @@ h4 {
 
     h2 {
         margin: 20px 0;
-        padding: 0 2vw 0 0 
+        padding: 0 2vw 0 0
     }
 
     h1 {
@@ -386,7 +389,8 @@ h4 {
     margin: 0;
     padding: 0;
 }
-.acerca-de__form-box{
+
+.acerca-de__form-box {
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -394,28 +398,30 @@ h4 {
     width: 100%;
 
 }
-.acerca-de__form{
+
+.acerca-de__form {
     position: relative;
     left: 10px;
     top: 20px;
     width: 100%;
 
-    h1{
+    h1 {
         font-size: 35px;
     }
 }
+
 /* Formas Acerca de Nosotros */
 
 /* Formas */
 /* Contacto */
-.contact__fondo-box{
+.contact__fondo-box {
     height: 100%;
     width: 100%;
     background-color: $color-sombra;
     overflow: hidden;
 }
 
-.contact__fondo{
+.contact__fondo {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -426,54 +432,58 @@ h4 {
 
 }
 
-.contact__forma-text{
-position: relative;
-top: 13vw;
+.contact__forma-text {
+    position: relative;
+    top: 13vw;
 
 
 }
 
 
 
-.form__contact{
+.form__contact {
     background: $color-fondo-formas;
     border-style: none;
     font-family: $fuente-secundario;
     padding: 30px 10px;
+
     &:focus {
         background: $color-fondo-formas;
         color: $color-nav;
     }
+
     z-index: 3;
 }
 
 
-.form__contact-textarea{
+.form__contact-textarea {
     background-color: $color-fondo-formas;
     font-family: $fuente-secundario;
     padding: 10px 0px 100px 10px;
     border-style: none;
-    &:focus{
+
+    &:focus {
         background-color: $color-fondo-formas;
         color: $color-nav;
     }
 }
 
 
-.button__contact{
+.button__contact {
     background-color: $color-terciario;
     border-style: none;
     font-family: $fuente-secundario;
     font-size: 1.5em;
     padding: 10px 50px;
-    &:hover{
+
+    &:hover {
         background-color: $color-secundario;
         transition: 1s;
         -webkit-transition: 1s;
         -moz-transition: 1s;
         -ms-transition: 1s;
         -o-transition: 1s;
-}
+    }
 }
 
 
@@ -491,44 +501,52 @@ top: 13vw;
 
 /* Contacto */
 /* Start*/
-.start__text{
-    position: absolute;
-    margin: 13vw 40vw 10vw 15vw;
-    padding: 0vw 20vw 2vw 0vw;
-    
-    h1{
-        
-        width: 28vw;
-    }
-    h2 {
-        padding: 0.2vw 0vw 0vw 0vw;
-    }
+.start__fondo-box {
+    height: 105%;
+    width: 100%;
+    background-color: $color-sombra;
+    overflow: hidden;
 }
-.start__app-container{
+
+.start__fondo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 145vh;
+    background: radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%);
+}
+
+.start__text {
+    padding: 15vw 1vw 0vw 1vw;
+
+
+}
+
+.start__app-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     height: 50px;
     width: 300px;
-    
     margin: auto;
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
 }
-.start__app-item{
-    padding: 2px;
+
+.start__app-item {
+    padding: 5px;
 }
 
 
-/* Start*/ 
+/* Start*/
 /* Footer */
 .footer__container {
     position: relative;
-    bottom:0px;
+    bottom: 0px;
     left: 0px;
     height: 10em;
     margin: 0;
@@ -554,7 +572,7 @@ top: 13vw;
 }
 
 .footer__copy {
-    background-color:$color-primario;
+    background-color: $color-primario;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -582,11 +600,11 @@ top: 13vw;
         -o-transform: scale(0.7);
     }
 
-    .div__articulos__acerca-de{
+    .div__articulos__acerca-de {
         height: auto;
         margin: 0;
         padding: 0;
-    
+
     }
 
     .nav-current-circle {
@@ -656,7 +674,7 @@ top: 13vw;
     }
 
     // Formas
-    
+
     // Contenido
 
 
@@ -697,8 +715,8 @@ top: 13vw;
         z-index: -1;
         overflow: hidden;
     }
-    
-    .acerca-de__text { 
+
+    .acerca-de__text {
 
         padding: auto;
         width: 100%;
@@ -706,26 +724,29 @@ top: 13vw;
         font-size: 48px;
         line-height: 100%;
         letter-spacing: 2px;
-    
+
         h2 {
             margin: 20px 0;
-            padding: auto; 
+            padding: auto;
             font-size: 17px;
         }
-    
+
         h1 {
             font-size: 48px;
         }
     }
-    .acerca-de__form{
+
+    .acerca-de__form {
         position: relative;
-        top:10px;
+        top: 10px;
         width: 400px;
         left: 6vw;
-        h1{
+
+        h1 {
             font-size: 21px;
         }
     }
+
     // Acerca de
     // Botones
 
@@ -750,7 +771,7 @@ top: 13vw;
         font-size: 15px;
         overflow: hidden;
     }
-    
+
     .form__subscribirse {
         position: relative;
         font-size: 1em;
@@ -759,27 +780,29 @@ top: 13vw;
         padding: 25px;
         border-style: none;
         font-size: 14px;
-    
+
         &:focus {
             background: $color-fondo-formas;
             color: $color-nav;
         }
-        
+
     }
-    
+
     .form__inicio {
         position: relative;
         width: 250px;
         height: 130px;
         padding: auto;
-        
+
     }
+
     // Botones
     // Contenido
 
 }
-@media screen and (max-width: 780px) and (min-width: 370px){
-  
+
+@media screen and (max-width: 780px) and (min-width: 370px) {
+
     /* Navbar */
     header {
         position: static;
@@ -797,11 +820,11 @@ top: 13vw;
         -o-transform: scale(0.7);
     }
 
-    .div__articulos__acerca-de{
+    .div__articulos__acerca-de {
         height: auto;
         margin: 0;
         padding: 0;
-    
+
     }
 
     .nav-current-circle {
@@ -871,7 +894,7 @@ top: 13vw;
     }
 
     // Formas
-    
+
     // Contenido
 
 
@@ -912,8 +935,8 @@ top: 13vw;
         z-index: -1;
         overflow: hidden;
     }
-    
-    .acerca-de__text { 
+
+    .acerca-de__text {
 
         padding: auto;
         width: 100%;
@@ -921,26 +944,29 @@ top: 13vw;
         font-size: 48px;
         line-height: 100%;
         letter-spacing: 2px;
-    
+
         h2 {
             margin: 20px 0;
-            padding: auto; 
+            padding: auto;
             font-size: 17px;
         }
-    
+
         h1 {
             font-size: 48px;
         }
     }
-    .acerca-de__form{
+
+    .acerca-de__form {
         position: relative;
-        top:10px;
+        top: 10px;
         width: 400px;
         left: 6vw;
-        h1{
+
+        h1 {
             font-size: 21px;
         }
     }
+
     // Acerca de
     // Botones
 
@@ -965,7 +991,7 @@ top: 13vw;
         font-size: 15px;
         overflow: hidden;
     }
-    
+
     .form__subscribirse {
         position: relative;
         font-size: 1em;
@@ -974,21 +1000,22 @@ top: 13vw;
         padding: 25px;
         border-style: none;
         font-size: 14px;
-    
+
         &:focus {
             background: $color-fondo-formas;
             color: $color-nav;
         }
-        
+
     }
-    
+
     .form__inicio {
         position: relative;
         width: 250px;
         height: 130px;
         padding: auto;
-        
+
     }
+
     // Botones
     // Contenido
 }
@@ -1023,46 +1050,52 @@ top: 13vw;
         padding: 30px;
         border-style: none;
         font-size: 14px;
-    
+
         &:focus {
             background: $color-fondo-formas;
             color: $color-nav;
         }
-        
+
     }
+
     .form__inicio {
         position: relative;
         width: 350px;
         height: 200px;
         padding: auto;
-        
+
     }
-    .acerca-de__form{
+
+    .acerca-de__form {
         position: relative;
-        top:10px;
+        top: 10px;
         width: 400px;
         left: 10vw;
-        h1{
+
+        h1 {
             font-size: 25px;
         }
     }
-    .acerca-de__text { 
+
+    .acerca-de__text {
         letter-spacing: 1px;
-    
+
         h2 {
             font-size: 20px;
         }
-    
+
         h1 {
             font-size: 40px;
         }
     }
-    .div__articulos__acerca-de{
+
+    .div__articulos__acerca-de {
         height: auto;
         margin: 0;
         padding: 0;
-    
+
     }
+
     // Navbar
     header {
         position: static;
@@ -1198,7 +1231,7 @@ top: 13vw;
         border: none;
         font-family: $fuente-secundario;
         font-weight: 500;
-        color:$color-titulos-h1;
+        color: $color-titulos-h1;
         padding: 10px 80px;
         text-align: center;
         text-decoration: none;
@@ -1211,13 +1244,13 @@ top: 13vw;
 
     // Navbar
 
-    .acerca-de__text { 
+    .acerca-de__text {
         letter-spacing: 1px;
-    
+
         h2 {
             font-size: 23px;
         }
-    
+
         h1 {
             font-size: 45px;
         }

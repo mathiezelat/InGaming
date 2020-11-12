@@ -365,31 +365,38 @@ h4 {
 
 /* Contacto */
 /* Start*/
+.start__fondo-box {
+  height: 105%;
+  width: 100%;
+  background-color: #000000;
+  overflow: hidden; }
+
+.start__fondo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 145vh;
+  background: radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%); }
+
 .start__text {
-  position: absolute;
-  margin: 13vw 40vw 10vw 15vw;
-  padding: 0vw 20vw 2vw 0vw; }
-  .start__text h1 {
-    width: 28vw; }
-  .start__text h2 {
-    padding: 0.2vw 0vw 0vw 0vw; }
+  padding: 15vw 1vw 0vw 1vw; }
 
 .start__app-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   height: 50px;
   width: 300px;
   margin: auto;
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2); }
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1); }
 
 .start__app-item {
-  padding: 2px; }
+  padding: 5px; }
 
 /* Start*/
 /* Footer */
