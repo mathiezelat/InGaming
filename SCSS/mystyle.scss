@@ -18,6 +18,9 @@ $color-sombra: #000000;
 $color-titulos-h1: #ffffff;
 $color-subtitulos-h5: #ffffff;
 $color-fondo-formas:#2d2a4a;
+$color-fondo:radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%);
+$color-button-nav:linear-gradient(180deg, #6e44ff 0%, #4d6cfa 100%),
+#c4c4c4;
 
 // Colores de la pagina
 // Fuentes
@@ -100,7 +103,7 @@ header {
 }
 
 .button__nav {
-    background: linear-gradient(180deg, #6e44ff 0%, #4d6cfa 100%), #c4c4c4;
+    background: $color-button-nav;
     border: none;
     font-family: $fuente-secundario;
     font-weight: 500;
@@ -240,7 +243,7 @@ h4 {
     top: 0px;
     left: 0px;
     z-index: -3;
-    background: radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%);
+    background: $color-fondo;
 }
 
 .page__forma-text {
@@ -258,7 +261,6 @@ h4 {
 
 .inicio__formas-container-iconos {
     position: relative;
-
     width: 75%;
     height: 25vw;
     top: 45em;
@@ -360,7 +362,7 @@ h4 {
     top: 0px;
     left: 0px;
     z-index: -3;
-    background: radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%);
+    background: $color-fondo;
 }
 
 .acerca-de__text-box {
@@ -428,7 +430,7 @@ h4 {
     width: 100vw;
     height: 145vh;
     left: 0px;
-    background: radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%);
+    background: $color-fondo;
 
 }
 
@@ -514,7 +516,7 @@ h4 {
     text-align: center;
     width: 100vw;
     height: 145vh;
-    background: radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%);
+    background: $color-fondo;
 }
 
 .start__text {
@@ -1227,7 +1229,7 @@ h4 {
     }
 
     .button__nav {
-        background: linear-gradient(180deg, #6e44ff 0%, #4d6cfa 100%), #c4c4c4;
+        background: $color-button-nav;
         border: none;
         font-family: $fuente-secundario;
         font-weight: 500;
