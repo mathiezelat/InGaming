@@ -300,7 +300,6 @@ h4 {
 /* Particulas JS*/
 canvas {
     display: block;
-    vertical-align: bottom;
 }
 
 /* ---- particles.js container ---- */
@@ -312,7 +311,6 @@ body {
 
 canvas {
     display: block;
-    vertical-align: bottom;
 }
 
 /* ---- particles.js container ---- */
@@ -387,7 +385,7 @@ canvas {
 
 /* Formas Inicio 1*/
 .image__planeta {
-    animation: planeta_animate 5s linear 1s infinite alternate;
+    animation: planeta_animate 5s linear 0.1s infinite alternate;
     position: absolute;
     top: -3vw;
     left: 38vw;
@@ -396,7 +394,7 @@ canvas {
     -moz-transform: scale(0.8);
     -ms-transform: scale(0.8);
     -o-transform: scale(0.8);
-    -webkit-animation: planeta_animate 10s linear 1s infinite alternate;
+    -webkit-animation: planeta_animate 5s linear 0.1s infinite alternate;
 }
 
 .inicio__formas-container-iconos {

@@ -227,8 +227,7 @@ h4 {
 /* Contenido */
 /* Particulas JS*/
 canvas {
-  display: block;
-  vertical-align: bottom; }
+  display: block; }
 
 /* ---- particles.js container ---- */
 /* ---- reset ---- */
@@ -237,8 +236,7 @@ body {
   font: normal 75% Arial, Helvetica, sans-serif; }
 
 canvas {
-  display: block;
-  vertical-align: bottom; }
+  display: block; }
 
 /* ---- particles.js container ---- */
 #particles-js {
@@ -300,7 +298,7 @@ canvas {
 
 /* Formas Inicio 1*/
 .image__planeta {
-  animation: planeta_animate 5s linear 1s infinite alternate;
+  animation: planeta_animate 5s linear 0.1s infinite alternate;
   position: absolute;
   top: -3vw;
   left: 38vw;
@@ -309,7 +307,7 @@ canvas {
   -moz-transform: scale(0.8);
   -ms-transform: scale(0.8);
   -o-transform: scale(0.8);
-  -webkit-animation: planeta_animate 10s linear 1s infinite alternate; }
+  -webkit-animation: planeta_animate 5s linear 0.1s infinite alternate; }
 
 .inicio__formas-container-iconos {
   position: relative;
