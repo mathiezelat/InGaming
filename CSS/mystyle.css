@@ -312,7 +312,7 @@ canvas {
 .inicio__formas-container-iconos {
   position: relative;
   width: 75%;
-  height: 25vw;
+  height: 5vw;
   top: 40vw;
   left: 0;
   margin: 0 auto;
@@ -545,7 +545,7 @@ canvas {
   position: relative;
   bottom: 0px;
   left: 0px;
-  height: 10em;
+  height: 0;
   margin: 0;
   padding: 0; }
 
