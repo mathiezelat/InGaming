@@ -307,7 +307,12 @@ canvas {
   -moz-transform: scale(0.8);
   -ms-transform: scale(0.8);
   -o-transform: scale(0.8);
-  -webkit-animation: planeta_animate 120s linear 0.1s infinite alternate; }
+  -webkit-animation: planeta_animate 120s linear 0.1s infinite alternate;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
 
 .inicio__formas-container-iconos {
   position: relative;
@@ -727,9 +732,31 @@ canvas {
     position: relative;
     width: 250px;
     height: 130px;
-    padding: auto; } }
+    padding: auto; }
+  .image__planeta {
+    animation: planeta_animate 5s linear 0.1s infinite alternate;
+    position: absolute;
+    top: -10vw;
+    left: 20vw;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-animation: planeta_animate 120s linear 0.1s infinite alternate; } }
 
 @media screen and (max-width: 780px) and (min-width: 370px) {
+  .image__planeta {
+    animation: planeta_animate 5s linear 0.1s infinite alternate;
+    position: absolute;
+    top: -10vw;
+    left: 20vw;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-animation: planeta_animate 120s linear 0.1s infinite alternate; }
   /* Navbar */
   header {
     position: static;
