@@ -307,7 +307,7 @@ canvas {
   -moz-transform: scale(0.8);
   -ms-transform: scale(0.8);
   -o-transform: scale(0.8);
-  -webkit-animation: planeta_animate 5s linear 0.1s infinite alternate; }
+  -webkit-animation: planeta_animate 120s linear 0.1s infinite alternate; }
 
 .inicio__formas-container-iconos {
   position: relative;
@@ -578,12 +578,12 @@ canvas {
 @keyframes planeta_animate {
   from { }
   to {
-    transform: rotate(15deg);
+    transform: rotate(180deg);
     transform: scale(0.85);
-    -webkit-transform: rotate(15deg);
-    -moz-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    -o-transform: rotate(15deg); } }
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg); } }
 
 /* ANIMACIONES */
 /* MEDIA QUERIES */
