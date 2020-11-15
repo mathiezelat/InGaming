@@ -463,7 +463,7 @@ canvas {
   width: 100vw;
   height: 145vh;
   left: 0px;
-  background: radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%); }
+  background: linear-gradient(to right bottom, #510086, #590e9b, #601cb1, #6628c8, #6b34df, #6b34df, #6b34df, #6b34df, #6628c8, #601cb1, #590e9b, #510086); }
 
 .contact__forma-text {
   position: relative;
@@ -523,7 +523,7 @@ canvas {
   text-align: center;
   width: 100vw;
   height: 145vh;
-  background: radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%); }
+  background: linear-gradient(to right bottom, #510086, #590e9b, #601cb1, #6628c8, #6b34df, #6b34df, #6b34df, #6b34df, #6628c8, #601cb1, #590e9b, #510086); }
 
 .start__text {
   padding: 15vw 1vw 0vw 1vw;

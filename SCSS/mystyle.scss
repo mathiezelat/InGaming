@@ -19,6 +19,7 @@ $color-titulos-h1: #ffffff;
 $color-subtitulos-h5: #ffffff;
 $color-fondo-formas:#2d2a4a;
 $color-fondo:radial-gradient(50% 98.88% at 50% 50%, #221e46 0%, #17182b 100%);
+$color-fondo-brillante: linear-gradient(to right bottom, #510086, #590e9b, #601cb1, #6628c8, #6b34df, #6b34df, #6b34df, #6b34df, #6628c8, #601cb1, #590e9b, #510086);
 $color-button-nav:linear-gradient(180deg, #6e44ff 0%, #4d6cfa 100%),
 #c4c4c4;
 
@@ -591,7 +592,7 @@ canvas {
     width: 100vw;
     height: 145vh;
     left: 0px;
-    background: $color-fondo;
+    background: $color-fondo-brillante;
 
 }
 
@@ -671,7 +672,7 @@ canvas {
     text-align: center;
     width: 100vw;
     height: 145vh;
-    background: $color-fondo;
+    background: $color-fondo-brillante;
 }
 
 .start__text {
